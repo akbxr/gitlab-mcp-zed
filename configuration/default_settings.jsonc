@@ -1,5 +1,5 @@
 {
-  /// Your Gitlab token
+  /// Your Gitlab access token
   "gitlab_personal_access_token": "YOUR_GITLAB_TOKEN"
   /// For self-hosted GitLab instances, you can specify a custom API URL (optional)
   /// "gitlab_api_url": "https://your-gitlab-instance.com/api/v4"
