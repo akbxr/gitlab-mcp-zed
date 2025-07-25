@@ -21,7 +21,7 @@ You need to configure the following settings in your `settings.json`:
 
 ```json
 {
-  "context_server": {
+  "context_servers": {
     "mcp-server-gitlab": {
       "settings": {
         "gitlab_personal_access_token": "YOUR_TOKEN"
@@ -37,7 +37,7 @@ For self-hosted GitLab instances, you can specify a custom API URL:
 
 ```json
 {
-  "context_server": {
+  "context_servers": {
     "mcp-server-gitlab": {
       "settings": {
         "gitlab_personal_access_token": "YOUR_TOKEN",
@@ -53,8 +53,8 @@ For self-hosted GitLab instances, you can specify a custom API URL:
 If you're using Zed's agent mode, you need to enable this context server for your assistant:
 
 1. Open Zed's Agent settings
-2. Enable the Gitlab MCP server. If you see that the status of the tool is a red dot, make sure you added your gitlab_personal_access_token in settings.json.
-3. Enable the Gitlab MCP Server in the active assistant profile. In the chat section, click on the `Write | Ask` button, then click on `tools`, then enable the Gitlab MCP server.
+2. Enable the GitLab MCP server. If you see that the status of the tool is a red dot, make sure you added your gitlab_personal_access_token in settings.json.
+3. Enable the GitLab MCP Server in the active assistant profile. In the chat section, click on the `Write | Ask` button, then click on `tools`, then enable the GitLab MCP server.
 
 ### Personal Access Token
 
