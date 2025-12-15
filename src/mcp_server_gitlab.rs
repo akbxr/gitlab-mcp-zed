@@ -6,8 +6,8 @@ use zed_extension_api::{
     self as zed, serde_json, Command, ContextServerConfiguration, ContextServerId, Project, Result,
 };
 
-const PACKAGE_NAME: &str = "@modelcontextprotocol/server-gitlab";
-const SERVER_PATH: &str = "node_modules/@modelcontextprotocol/server-gitlab/dist/index.js";
+const PACKAGE_NAME: &str = "@zereight/mcp-gitlab";
+const SERVER_PATH: &str = "node_modules/@zereight/mcp-gitlab/build/index.js";
 
 struct GitlabModelContextExtension;
 
